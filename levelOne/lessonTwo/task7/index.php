@@ -33,7 +33,6 @@ function endOfHours($hour){
         echo "$hour ч.&nbsp";
     }
 };
-
 endOfHours(date('G'));
 endOfMinutes(date("i"));
 ?>
