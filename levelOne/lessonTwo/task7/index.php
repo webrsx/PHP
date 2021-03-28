@@ -9,13 +9,13 @@ function endOfMinutes($minutes){
             echo "$minutes минут";
         }
         elseif($minutes%10 == 1){
-            "$minutes минута";
+            echo "$minutes минута";
         }
         elseif($minutes%10 >= 2 || $minutes%10 <= 4){
-            "$minutes минуты";
+            echo "$minutes минуты";
         }
         else {
-            "$minutes мин.";
+            echo "$minutes мин.";
         }
     }
 };
