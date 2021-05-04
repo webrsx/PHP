@@ -1,0 +1,48 @@
+body{
+    display: flex;
+    flex-wrap: wrap;
+}
+header{
+ height: 100px;
+ width: 100%;   
+ border: 1px solid black;
+ padding: 3%;
+}
+.main{
+    padding: 10px;
+    margin-right: 1%;
+    border: 1px solid black;
+    width: 68%;
+    min-height: 500px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+nav{
+    border: 1px solid black;
+    width: 100%;
+    margin: 5px;
+}
+aside{
+    padding: 10px;
+    border: 1px solid black;
+    width: 28%;
+}
+article{
+    border: 1px solid black;
+}
+footer{
+    padding: 10px;
+    border: 1px solid black;
+    width: 100%;
+    min-height: 200px;
+}
+.link-a{
+    padding: 0;
+    margin: 5%;
+    width: 400px; 
+    height: 300px;
+}
+body > main > form{
+    width: 100%;
+}
